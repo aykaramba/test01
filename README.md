@@ -67,7 +67,7 @@ Please take a look at the *Documentation Quickstat* section. It is the most comp
 The rest of the site is full of either placeholder documents that need to be created or copy / paste of existing documentation from the CLOG repo that needs to be edited and put in the correct part of the new CLOG manual.  Feel free to drill down as far as you want and to comment with as much detail as you like.  The more detail the better.
 
 
-# REQUEST
+# ACTION ITEMS
 
 Rabbi Botton, I need the following:
 
