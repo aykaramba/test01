@@ -60,6 +60,13 @@ There are all kinds of pros and cons with hosting documentation on Github pages.
 One day we will host this on CLOG servers, but for now this is probably sufficient. When https://clogpower.com is updated, we can just link directly to the Gihub Pages as official documentation for now.
 
 
+## Special Note
+
+Please take a look at the *Documentation Quickstat* section. It is the most complete. It includes default documents provided by the system to get editors up and running quickly with markdown and information about the documentation project, goals and so forth. That will give you a good sense of what ***REAL*** documentation would look like if it had actual content.
+
+The rest of the site is full of either placeholder documents that need to be created or copy / paste of existing documentation from the CLOG repo that needs to be edited and put in the correct part of the new CLOG manual.  Feel free to drill down as far as you want and to comment with as much detail as you like.  The more detail the better.
+
+
 # REQUEST
 
 Rabbi Botton, I need the following:
