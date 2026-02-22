@@ -8,7 +8,7 @@ This an initial test environment of the CLOG documentation project. The purpose 
 I tested out a number of documentation technologies and tried to pick one that:
 
 - Minimizes the required markup labour and knowledge.
-- Maximizes features and layout styling with the simplest technology possible.
+- Maximizes presentation features and layout styling with the simplest technology possible.
 - It has to be something that the community can live with on a long term basis, it cannot have too many annoying edge cases or weird behaviours.
 - The technology has to be easy to install, operate and maintain locally for any ongoing contributors.
 
