@@ -2,6 +2,8 @@
 icon: lucide/rocket
 ---
 
+### anyone home? anyone?
+
 # Get started
 
 For full documentation visit [zensical.org](https://zensical.org/docs/).
