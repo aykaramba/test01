@@ -37,6 +37,8 @@ copyright = """
 Copyright &copy; 2026 The authors
 """
 
+
+
 # Zensical supports both implicit navigation and explicitly defined navigation.
 # If you decide not to define a navigation here then Zensical will simply
 # derive the navigation structure from the directory structure of your
@@ -48,6 +50,49 @@ Copyright &copy; 2026 The authors
 #   { "Get started" = "index.md" },
 #   { "Markdown in 5min" = "markdown.md" },
 # ]
+
+
+nav = [
+  {"Home" = "index.md"},
+  {"CLOG the Manual" = [
+     "clog-the-manual/index.md",
+     { "Getting Started" = [
+        { "Setup Common Lisp" = "clog-the-manual/getting-started/setup-common-lisp.md" },
+        { "Your Dev Environment" = "clog-the-manual/getting-started/your-dev-environment.md" },
+        { "Tips and Tricks" = "clog-the-manual/getting-started/trips-and-tricks.md" },
+        { "Package Management" = "clog-the-manual/getting-started/package-management.md" },
+      ]},
+     { "CLOG App Creation" = [
+        { "Just the Basics" = "clog-the-manual/clog-app-creation/just-the-basics.md" },
+        { "Use HTML for Layout" = "clog-the-manual/clog-app-creation/use-html-for-layout.md" },
+        { "Using Panels" = "clog-the-manual/clog-app-creation/using-panels.md" },
+        { "Using HTML Grid" = "clog-the-manual/clog-app-creation/using-html-grid.md" },
+        { "Using CSS Effectively" = "clog-the-manual/clog-app-creation/using-css-effectively.md" },
+        { "Access Control" = "clog-the-manual/clog-app-creation/access-control.md" },
+        { "Restore Sessions" = "clog-the-manual/clog-app-creation/restore-sessions.md" },
+      ]},
+     { "CLOG App Delivery" = [
+        { "Traditional Websites" = "clog-the-manual/clog-app-delivery/traditional-websites.md" },
+        { "Web Applications" = "clog-the-manual/clog-app-delivery/web-applications.md" },
+        { "Desktop Applications" = "clog-the-manual/clog-app-delivery/desktop-applications.md" },
+        { "Mobile Applications" = "clog-the-manual/clog-app-delivery/mobile-applications.md" },
+        { "Embedded Devices" = "clog-the-manual/clog-app-delivery/embedded-devices.md" },
+      ]},
+     { "Security and CLOG" = [
+        { "Security Concepts" = "clog-the-manual/security-and-clog/security-concepts.md" },
+      ]},
+  ]},
+  {"Common Lisp - Introduction" = [
+     { "blah" = "common-lisp-introduction/index.md" }
+  ]},
+  {"Documentation Quickstart" = [
+     "documentation-quickstart/index.md",
+     { "Markdown Examples" = "documentation-quickstart/examples.md"},
+     { "Markdown in 5min" = "documentation-quickstart/markdown.md" },
+  ]}
+]
+
+
 
 # With the "extra_css" option you can add your own CSS styling to customize
 # your Zensical project according to your needs. You can add any number of
@@ -84,6 +129,7 @@ Copyright &copy; 2026 The authors
 # - https://zensical.org/docs/customization/#extending-the-theme
 #
 #custom_dir = "overrides"
+
 
 # With the "favicon" option you can set your own image to use as the icon
 # browsers will use in the browser title bar or tab bar. The path provided
@@ -215,7 +261,7 @@ features = [
     # When tabs are enabled, top-level sections are rendered in a menu layer
     # below the header for viewports above 1220px, but remain as-is on mobile.
     # https://zensical.org/docs/setup/navigation/#navigation-tabs
-    #"navigation.tabs",
+    "navigation.tabs",
 
     # When sticky tabs are enabled, navigation tabs will lock below the header
     # and always remain visible when scrolling down.
