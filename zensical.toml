@@ -83,7 +83,7 @@ nav = [
       ]},
   ]},
   {"CLOG Roadmap" = [
-     { "Links and Resources" = "links-and-resources/index.md" },
+     { "CLOG Roadmap" = "clog-roadmap/index.md" },
   ]},
   {"Examples and Tutorials" = [
      { "blah" = "examples-and-tutorials/index.md" },
