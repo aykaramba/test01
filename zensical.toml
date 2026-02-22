@@ -82,6 +82,9 @@ nav = [
         { "Security Concepts" = "clog-the-manual/security-and-clog/security-concepts.md" },
       ]},
   ]},
+  {"CLOG Roadmap" = [
+     { "Links and Resources" = "links-and-resources/index.md" },
+  ]},
   {"Examples and Tutorials" = [
      { "blah" = "examples-and-tutorials/index.md" },
      #{ "CLOG App Delivery" = [
