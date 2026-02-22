@@ -1,5 +1,5 @@
 
-# TEST - Test documentation system for the Common Lisp Omnificent GUI
+# Test documentation system for the Common Lisp Omnificent GUI
 
 This an initial test environment of the CLOG documentation project. The purpose of this repo is to test out the documentation solution and workflow that might work best for the ongoing support and development of the CLOG project. The solution is mostly filled with placeholder documents, however, the look/feel and behaviour of the implementation is ready for your review and consideration.
 
