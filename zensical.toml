@@ -11,18 +11,18 @@
 # The site_name is shown in the page header and the browser window title
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
-site_name = "Documentation"
+site_name = "CLOG Documentation"
 
 # The site_description is included in the HTML head and should contain a
 # meaningful description of the site content for use by search engines.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_description
-site_description = "A new project generated from the default template project."
+site_description = "The official documentation of the CLOG framework."
 
 # The site_author attribute. This is used in the HTML head element.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_author
-site_author = "<your name here>"
+site_author = "Robert Taylor, et al."
 
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.
@@ -34,10 +34,8 @@ site_author = "<your name here>"
 #
 # Read more: https://zensical.org/docs/setup/basics/#copyright
 copyright = """
-Copyright &copy; 2026 The authors
+Copyright &copy; 2026 David Botton
 """
-
-
 
 # Zensical supports both implicit navigation and explicitly defined navigation.
 # If you decide not to define a navigation here then Zensical will simply
@@ -51,7 +49,9 @@ Copyright &copy; 2026 The authors
 #   { "Markdown in 5min" = "markdown.md" },
 # ]
 
-
+# ----------------------------------------------------------------------------
+# The CLOG Navigation ---> Edit Here
+# ----------------------------------------------------------------------------
 nav = [
   {"Home" = "index.md"},
   {"CLOG the Manual" = [
@@ -82,8 +82,21 @@ nav = [
         { "Security Concepts" = "clog-the-manual/security-and-clog/security-concepts.md" },
       ]},
   ]},
-  {"Common Lisp - Introduction" = [
-     { "blah" = "common-lisp-introduction/index.md" }
+  {"Examples and Tutorials" = [
+     { "blah" = "examples-and-tutorials/index.md" },
+     #{ "CLOG App Delivery" = [
+     #   { "Traditional Websites" = "clog-the-manual/clog-app-delivery/traditional-websites.md" },
+     #   { "Web Applications" = "clog-the-manual/clog-app-delivery/web-applications.md" },
+     #   { "Desktop Applications" = "clog-the-manual/clog-app-delivery/desktop-applications.md" },
+     #   { "Mobile Applications" = "clog-the-manual/clog-app-delivery/mobile-applications.md" },
+     #   { "Embedded Devices" = "clog-the-manual/clog-app-delivery/embedded-devices.md" },
+     # ]},
+  ]},
+  {"Links and Resources" = [
+     { "Links and Resources" = "links-and-resources/index.md" },
+  ]},
+  {"Policies and Procedures" = [
+     { "Policies and Procedures" = "policies-and-procedures/index.md" },
   ]},
   {"Documentation Quickstart" = [
      "documentation-quickstart/index.md",
@@ -139,7 +152,10 @@ nav = [
 # - https://zensical.org/docs/setup/logo-and-icons/#favicon
 # - https://developer.mozilla.org/en-US/docs/Glossary/Favicon
 #
-#favicon = "images/favicon.png"
+favicon = "resources/images/favicon/favicon-32x32.png"
+
+# Site logo (location: header)
+logo = "resources/images/logo.png"
 
 # Zensical supports more than 60 different languages. This means that the
 # labels and tooltips that Zensical's templates produce are translated.
@@ -339,7 +355,7 @@ toggle.name = "Switch to light mode"
 # - https://zensical.org/docs/setup/logo-and-icons
 # - https://zensical.org/docs/authoring/icons-emojis/#search
 # ----------------------------------------------------------------------------
-#[project.theme.icon]
+# [project.theme.icon]
 #logo = "lucide/smile"
 #repo = "lucide/smile"
 
