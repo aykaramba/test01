@@ -11,7 +11,8 @@ The goal of the CLOG documentation project is to provide the appropriate amount 
 
 # Layout ideas
 
-Some ideas about what to put on the home page here. Generate with Grok.
+!!! info
+    Some ideas about what to put on the home page here. Generated with Grok.
 
 
 **CLOG Homepage – Full Marketing Copy (Ready to Drop into HTML/CSS)**
