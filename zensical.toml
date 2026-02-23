@@ -86,7 +86,7 @@ nav = [
      { "CLOG Roadmap" = "clog-roadmap/index.md" },
   ]},
   {"Examples and Tutorials" = [
-     { "blah" = "examples-and-tutorials/index.md" },
+     { "Examples and Tutorials" = "examples-and-tutorials/index.md" },
      #{ "CLOG App Delivery" = [
      #   { "Traditional Websites" = "clog-the-manual/clog-app-delivery/traditional-websites.md" },
      #   { "Web Applications" = "clog-the-manual/clog-app-delivery/web-applications.md" },
