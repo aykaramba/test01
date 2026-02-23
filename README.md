@@ -62,9 +62,9 @@ One day we will host this on CLOG servers, but for now this is probably sufficie
 
 ## Special Note
 
-Please take a look at the *Documentation Quickstat* section. It is the most complete. It includes default documents provided by the system to get editors up and running quickly with markdown and information about the documentation project, goals and so forth. That will give you a good sense of what ***REAL*** documentation would look like if it had actual content.
+Please take a look at the *Documentation Quickstart* section. It is the most complete. It includes default documents provided by the system to get editors up and running quickly with markdown and information about the documentation project, goals and so forth. That will give you a good sense of what ***REAL*** documentation would look like if it had actual content.
 
-The documentation website STRUCTURE is the actual structure that I would like to see for the site. The content here is mostly either placeholder documents that need to be created or a copy / paste of existing documentation from the CLOG repo that needs to be edited and put in the correct part of the new CLOG manual. However, the actual menu and section structure is what I am proposing that we consider building out as best as we can. I think we should just go live with this skeleton configuration and just build it out day by day, page by page.
+The documentation website STRUCTURE is the actual structure that I would like to see for the site, although it isn't set in stone and we can move things around and merge some of the main tabs at the top. The rest of the content on the site is mostly either placeholder documents that need to be created or a copy / paste of existing documentation from the CLOG repo that needs to be edited and put in the correct part of the new CLOG manual. However, the actual menu and section structure is what I am proposing that we consider building out as best as we can. I think we should just go live with this skeleton configuration and just build it out day by day, page by page.
 
 Feel free to drill down as far as you want and to comment with as much detail as you like.  The more detail the better.
 
