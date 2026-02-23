@@ -11,32 +11,41 @@ If you spot CLOG being used in the wild, please let us know! We would love to he
 ### Moldable Inspector
 !!! quote
     A moldable Common Lisp object inspector based on CLOG. While this is a generic Common Lisp object inspector, much like Clouseau), my motivation for developing it is more specific: I want to make it easier to present computer-aided research with a large cognitive surface. In more familiar terms, I want to empower scientists to share their code, data, and associated narratives in a way that makes them comprehensible to their peers."
-[PROJECT REPO: Moldable Inspector](https://codeberg.org/khinsen/clog-moldable-inspector){:target="_blank"}
+
+<style>
+.icon {
+  color:gray;
+  margin-right:4px;
+}
+</style>
+
+:fontawesome-brands-github:{ .icon } **PROJECT REPO:** [Moldable Inspector](https://codeberg.org/khinsen/clog-moldable-inspector){:target="_blank"}
 
 ### CLOG Collider Experience
 !!! abstract
     A wonderful CLOG web based interface to the wonderful [SuperCollider](https://supercollider.github.io/){:target="_blank"} audio systhesis and algorithmic composition. This project uses the terrific [cl-collider](https://github.com/byulparan/cl-collider){:target="_blank"} Common Lisp library as an interface to SuperCollider also written by the same author!
-[PROJECT REPO: CLOG Collider Experience ](https://github.com/byulparan/clog-collider-experience/tree/main){:target="_blank"}
+
+:fontawesome-brands-github:{ .icon } **PROJECT REPO:** [CLOG Collider Experience ](https://github.com/byulparan/clog-collider-experience/tree/main){:target="_blank"}
 
 ### CLOG on iOS and Android
 !!! quote
      This doesn't use a web-server, only a simple websocket-server. You'll need a fork of CLOG that works on mobile. Tested on desktop (Linux/macOS) and mobile (android/iOS). Please note that I'm new to CLOG, so I only tested this simple example as a proof of concept. For more involved examples it will probably need some modification/adaption. 
 
-[Original Reddit Thread](https://www.reddit.com/r/lisp/comments/tl46of/would_it_be_cool_to_run_a_clog_app_on_mobile_you/){:target="_blank"}
+:fontawesome-brands-reddit:{ .icon } **Reddit:** [Original Thread](https://www.reddit.com/r/lisp/comments/tl46of/would_it_be_cool_to_run_a_clog_app_on_mobile_you/){:target="_blank"}
 
-[Link to APK from Dropbox](https://www.dropbox.com/s/h5wy57niq4g12ec/CLOG-demo.apk?dl=0){:target="_blank"}
+:fontawesome-brands-dropbox:{ .icon } **Link to:** [APK from Dropbox](https://www.dropbox.com/s/h5wy57niq4g12ec/CLOG-demo.apk?dl=0){:target="_blank"}
 
-[PROJECT REPO: CLOG on iOS and Android](https://gitlab.com/eql/lqml/-/tree/master/examples/clog-demo){:target="_blank"}
+:fontawesome-brands-github:{ .icon } **PROJECT REPO:** [CLOG on iOS and Android](https://gitlab.com/eql/lqml/-/tree/master/examples/clog-demo){:target="_blank"}
 
 ### Learn CLOG Dashboard
 !!! abstract
     A great little example of CLOG desktop widgets and how they can be combined in intersting ways to build a dynamic dashboard interface..
-[PROJECT REPO: Learn CLOG Dashboard](https://gist.github.com/mmontone/3a5a8a57675750e99ffb7fa64f40bc39){:target="_blank"}
+:fontawesome-brands-github:{ .icon } **PROJECT REPO:** [Learn CLOG Dashboard](https://gist.github.com/mmontone/3a5a8a57675750e99ffb7fa64f40bc39){:target="_blank"}
 
 ### CLOGPower.com
 !!! quote
     And, of course, the official CLOG website. Currently under active development and soon to be the showcase of the power of CLOG!
-[PROJECT REPO: CLOGPower.com ](https://clogpower.com/){:target="_blank"}
+:smile: **Home Page:** [https://CLOGPOWER.com](https://clogpower.com/){:target="_blank"}
 
 
 
