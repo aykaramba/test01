@@ -2,7 +2,7 @@
 
 
 <figure markdown="span">
-  ![Image title](resources/images/logo.svg){ width="200" }
+  ![Image title](assets/images/logo.svg){ width="200" }
 <figcaption><b>The Common Lisp Omnificent GUI</b></figcaption>
 </figure>
 

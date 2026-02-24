@@ -54,57 +54,46 @@ Copyright &copy; 2026 David Botton
 # ----------------------------------------------------------------------------
 nav = [
   {"Home" = "index.md"},
-  {"CLOG the Manual" = [
-     "clog-the-manual/index.md",
+  {"Manual" = [
+     "manual/index.md",
      { "Getting Started" = [
-        { "Setup Common Lisp" = "clog-the-manual/getting-started/setup-common-lisp.md" },
-        { "Your Dev Environment" = "clog-the-manual/getting-started/your-dev-environment.md" },
-        { "Tips and Tricks" = "clog-the-manual/getting-started/trips-and-tricks.md" },
-        { "Package Management" = "clog-the-manual/getting-started/package-management.md" },
+        { "Setup Common Lisp" = "manual/getting-started/setup-common-lisp.md" },
+        { "Your Dev Environment" = "manual/getting-started/your-dev-environment.md" },
+        { "Tips and Tricks" = "manual/getting-started/trips-and-tricks.md" },
+        { "Package Management" = "manual/getting-started/package-management.md" },
       ]},
      { "CLOG App Creation" = [
-        { "Just the Basics" = "clog-the-manual/clog-app-creation/just-the-basics.md" },
-        { "Use HTML for Layout" = "clog-the-manual/clog-app-creation/use-html-for-layout.md" },
-        { "Using Panels" = "clog-the-manual/clog-app-creation/using-panels.md" },
-        { "Using HTML Grid" = "clog-the-manual/clog-app-creation/using-html-grid.md" },
-        { "Using CSS Effectively" = "clog-the-manual/clog-app-creation/using-css-effectively.md" },
-        { "Access Control" = "clog-the-manual/clog-app-creation/access-control.md" },
-        { "Restore Sessions" = "clog-the-manual/clog-app-creation/restore-sessions.md" },
+        { "Just the Basics" = "manual/clog-app-creation/just-the-basics.md" },
+        { "Use HTML for Layout" = "manual/clog-app-creation/use-html-for-layout.md" },
+        { "Using Panels" = "manual/clog-app-creation/using-panels.md" },
+        { "Using HTML Grid" = "manual/clog-app-creation/using-html-grid.md" },
+        { "Using CSS Effectively" = "manual/clog-app-creation/using-css-effectively.md" },
+        { "Access Control" = "manual/clog-app-creation/access-control.md" },
+        { "Restore Sessions" = "manual/clog-app-creation/restore-sessions.md" },
       ]},
      { "CLOG App Delivery" = [
-        { "Traditional Websites" = "clog-the-manual/clog-app-delivery/traditional-websites.md" },
-        { "Web Applications" = "clog-the-manual/clog-app-delivery/web-applications.md" },
-        { "Desktop Applications" = "clog-the-manual/clog-app-delivery/desktop-applications.md" },
-        { "Mobile Applications" = "clog-the-manual/clog-app-delivery/mobile-applications.md" },
-        { "Embedded Devices" = "clog-the-manual/clog-app-delivery/embedded-devices.md" },
+        { "Traditional Websites" = "manual/clog-app-delivery/traditional-websites.md" },
+        { "Web Applications" = "manual/clog-app-delivery/web-applications.md" },
+        { "Desktop Applications" = "manual/clog-app-delivery/desktop-applications.md" },
+        { "Mobile Applications" = "manual/clog-app-delivery/mobile-applications.md" },
+        { "Embedded Devices" = "manual/clog-app-delivery/embedded-devices.md" },
       ]},
      { "Security and CLOG" = [
-        { "Security Concepts" = "clog-the-manual/security-and-clog/security-concepts.md" },
+        { "Security Concepts" = "manual/security-and-clog/security-concepts.md" },
       ]},
-  ]},
-  {"CLOG Roadmap" = [
-     { "CLOG Roadmap" = "clog-roadmap/index.md" },
   ]},
   {"Examples and Tutorials" = [
      { "Examples and Tutorials" = "examples-and-tutorials/index.md" },
-     #{ "CLOG App Delivery" = [
-     #   { "Traditional Websites" = "clog-the-manual/clog-app-delivery/traditional-websites.md" },
-     #   { "Web Applications" = "clog-the-manual/clog-app-delivery/web-applications.md" },
-     #   { "Desktop Applications" = "clog-the-manual/clog-app-delivery/desktop-applications.md" },
-     #   { "Mobile Applications" = "clog-the-manual/clog-app-delivery/mobile-applications.md" },
-     #   { "Embedded Devices" = "clog-the-manual/clog-app-delivery/embedded-devices.md" },
-     # ]},
+     { "Links and Resources" = "examples-and-tutorials/links-and-resources.md" },
   ]},
-  {"Links and Resources" = [
-     { "Links and Resources" = "links-and-resources/index.md" },
+  {"Roadmap" = [
+     { "Roadmap" = "roadmap/index.md" },
   ]},
-  {"Policies and Procedures" = [
-     { "Policies and Procedures" = "policies-and-procedures/index.md" },
-  ]},
-  {"Documentation Quickstart" = [
-     "documentation-quickstart/index.md",
-     { "Markdown Examples" = "documentation-quickstart/examples.md"},
-     { "Markdown in 5min" = "documentation-quickstart/markdown.md" },
+  {"Team Collaboration" = [
+     "team-collaboration/index.md",
+     { "Markdown Examples" = "team-collaboration/examples.md"},
+     { "Markdown in 5min" = "team-collaboration/markdown.md" },
+     { "How to Contribute" = "team-collaboration/how-to-contribute.md" },
   ]}
 ]
 
@@ -155,10 +144,10 @@ nav = [
 # - https://zensical.org/docs/setup/logo-and-icons/#favicon
 # - https://developer.mozilla.org/en-US/docs/Glossary/Favicon
 #
-favicon = "resources/images/favicon/favicon-32x32.png"
+favicon = "assets/images/favicon/favicon-32x32.png"
 
 # Site logo (location: header)
-logo = "resources/images/logo.png"
+logo = "assets/images/logo.png"
 
 # Zensical supports more than 60 different languages. This means that the
 # labels and tooltips that Zensical's templates produce are translated.
