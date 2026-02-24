@@ -1,5 +1,5 @@
 
-# Documentation Overview - Goals and Reasoning
+# Team Collaboration
 
 The CLOG Documentation project aims to provide everything a developer might need to build successful applications with the *Common Lisp Ominificent GUI framework*. This section provides everything that you need to know about the how and why of the documentation project including ***Markdown Examples*** and ***Markdown in 5 min*** that will give you 90% of what you need to know to get you started editing and writing documentation.
 
