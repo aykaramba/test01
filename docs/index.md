@@ -20,7 +20,7 @@ CLOG is the GUI framework that finally gives Common Lisp the omnificent power it
 
 <div align="center">
 <button 
-  onclick="window.location.href='https://aykaramba.github.io/test01/clog-the-manual/'" 
+  onclick="window.location.href='https://aykaramba.github.io/test01/manual/'" 
   style="
     display: inline-block;
     padding: 14px 36px;
