@@ -11,7 +11,7 @@ If you spot CLOG being used in the wild, please let us know! We would love to he
 
 ### Moldable Inspector
 !!! quote
-    A moldable Common Lisp object inspector based on CLOG. While this is a generic Common Lisp object inspector, much like Clouseau), my motivation for developing it is more specific: I want to make it easier to present computer-aided research with a large cognitive surface. In more familiar terms, I want to empower scientists to share their code, data, and associated narratives in a way that makes them comprehensible to their peers."
+    "A moldable Common Lisp object inspector based on CLOG. While this is a generic Common Lisp object inspector, much like Clouseau), my motivation for developing it is more specific: I want to make it easier to present computer-aided research with a large cognitive surface. In more familiar terms, I want to empower scientists to share their code, data, and associated narratives in a way that makes them comprehensible to their peers."
 
 ![Moldable Inspector](images/moldable-inspector.png)
 
@@ -34,7 +34,7 @@ If you spot CLOG being used in the wild, please let us know! We would love to he
 
 ### CLOG on iOS and Android
 !!! quote
-     This doesn't use a web-server, only a simple websocket-server. You'll need a fork of CLOG that works on mobile. Tested on desktop (Linux/macOS) and mobile (android/iOS). Please note that I'm new to CLOG, so I only tested this simple example as a proof of concept. For more involved examples it will probably need some modification/adaption. 
+     "This doesn't use a web-server, only a simple websocket-server. You'll need a fork of CLOG that works on mobile. Tested on desktop (Linux/macOS) and mobile (android/iOS). Please note that I'm new to CLOG, so I only tested this simple example as a proof of concept. For more involved examples it will probably need some modification/adaption."
 
 ![CLOG on Mobile Device](images/mobile-clog-demo.jpg)
 
@@ -53,7 +53,7 @@ If you spot CLOG being used in the wild, please let us know! We would love to he
 :fontawesome-brands-github:{ .icon } **PROJECT REPO:** [Learn CLOG Dashboard](https://gist.github.com/mmontone/3a5a8a57675750e99ffb7fa64f40bc39){:target="_blank"}
 
 ### CLOGPower.com
-!!! quote
+!!! abstract
     And, of course, the official CLOG website. Currently under active development and soon to be the showcase of the power of CLOG!
 
 ![CLOGPoser.com](https://dummyimage.com/600x400/eee/aaa)
