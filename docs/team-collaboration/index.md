@@ -27,7 +27,7 @@ In testing, either the platforms were too powerful or required to technical expe
 
 ### Missing features.
 
-The one feature that we are looking for that we are not exactly happy with is maintenance of documentation versions. Material for MkDocs uses a Python module called Mike to manage documentation versioning. The Zensical roadmap indicates that they are going to build this feature in the future so we can revisit this issue at that point. This is wishlist item and not a hard requirements.
+The one feature that we are looking for that we are not exactly happy with is maintenance of documentation versions. Material for MkDocs uses a Python module called Mike to manage documentation versioning. The Zensical roadmap indicates that they are going to build this feature in the future so we can revisit this issue at that point. This is a wishlist item and not a hard requirement.
 
 ### What about a CLOG based solution in the future?
 
@@ -35,7 +35,7 @@ Projects already exist aiming to build out competitive solutions. When they are 
 
 ### I want to contribute, how do I start?
 
-Great! The simplest way is to read the ***Markdown Examples*** and ***Markdown in 5min.*** here to get started. Then, just fork this repo, edit and submit a pull request!  We will provide detailed instructions on installation of Zensical and workflow suggestions in the near future.
+Great! The simplest way is to read the [**Markdown Examples**](markdown-examples.md) and [**Markdown in 5min**](markdown-in-5min.md) to get started. Then, just fork this repo, edit and submit a pull request!  We will provide detailed instructions on installation of Zensical and workflow suggestions in the near future.
 
 
 

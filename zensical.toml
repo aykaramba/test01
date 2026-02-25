@@ -92,8 +92,8 @@ nav = [
   {"Team Collaboration" = [
      "team-collaboration/index.md",
      { "How to Contribute" = "team-collaboration/how-to-contribute.md" },
-     { "Markdown Examples" = "team-collaboration/examples.md"},
-     { "Markdown in 5min" = "team-collaboration/markdown.md" },
+     { "Markdown Examples" = "team-collaboration/markdown-examples.md"},
+     { "Markdown in 5min" = "team-collaboration/markdown-in-5min.md" },
   ]}
 ]
 
