@@ -1,7 +1,7 @@
 
 # Links and Resources
 
-Here you’ll find carefully curated external links to real-world examples of CLOG-powered applications, high-quality tutorials and learning paths for Common Lisp, official and community-driven reference materials, useful libraries, tools, and related projects. Whether you’re just getting started or hunting for advanced techniques and inspiration, these resources are hand-picked to help you make the most of CLOG and the Common Lisp ecosystem. Dive in and happy hacking!
+Here you’ll find curated external links to real-world examples of CLOG-powered applications, high-quality tutorials and learning paths for Common Lisp, official and community-driven reference materials, useful libraries, tools, and related projects. Whether you’re just getting started or hunting for advanced techniques and inspiration, these resources are hand-picked to help you make the most of CLOG and the Common Lisp ecosystem. Dive in and happy hacking!
 
 
 ## Examples of CLOG on the web
@@ -11,6 +11,8 @@ If you spot CLOG being used in the wild, please let us know! We would love to he
 ### Moldable Inspector
 !!! quote
     A moldable Common Lisp object inspector based on CLOG. While this is a generic Common Lisp object inspector, much like Clouseau), my motivation for developing it is more specific: I want to make it easier to present computer-aided research with a large cognitive surface. In more familiar terms, I want to empower scientists to share their code, data, and associated narratives in a way that makes them comprehensible to their peers."
+
+zzzzzzzzzzzzzzzzz
 
 <style>
 .icon {

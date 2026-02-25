@@ -14,6 +14,9 @@ If you spot CLOG being used in the wild, please let us know! We would love to he
 !!! quote
     A moldable Common Lisp object inspector based on CLOG. While this is a generic Common Lisp object inspector, much like Clouseau), my motivation for developing it is more specific: I want to make it easier to present computer-aided research with a large cognitive surface. In more familiar terms, I want to empower scientists to share their code, data, and associated narratives in a way that makes them comprehensible to their peers."
 
+![Image title](https://dummyimage.com/600x400/eee/aaa)
+![ ](images/moldable-inspector.png)
+
 <style>
 .icon {
   color:gray;
