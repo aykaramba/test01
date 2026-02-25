@@ -30,9 +30,7 @@ We need to document the minimal set of governance information so that users know
 ## DOCUMENTATION QUESTION
 
 !!! warning
-    Rabbi, we need a discussion forum for the documentation project. I recommend that we do the weird thing and put on the main CLOG repository because documentation needs to be part of the ongoing CLOG discussions in the community.  Everyone will expect to have it in the documentation project repot and it makes sense if it was there but I think keeping all discussions in one location makes a lot more sense.
-
-    What do you think?
+    Rabbi, we need a discussion forum for the documentation project. I recommend that we do the weird thing and put on the main CLOG repository because documentation needs to be part of the ongoing CLOG discussions in the community.  Everyone will expect to have it in the documentation project but I think keeping all discussions in one location makes a lot more sense. What do you think?
 
 **I have a question about the documentation project, where is the official discussion hosted?**
 
