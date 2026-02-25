@@ -12,7 +12,7 @@
 
 <h1> <p style="text-align: center;">Build anything in pure Common Lisp.</p></h1>
 
-<h2> The GUI framework for developers and startups who refuse to write JavaScript. Desktop, web, mobile — all in one language. Ship MVPs in days, not months. </h2>
+##The GUI framework for developers and startups who want ship MVPs in days, not months. Desktop, web, mobile — all in one language. 
 
 CLOG is the GUI framework that finally gives Common Lisp the omnificent power it deserves. Write stunning desktop, web, and mobile apps with **zero HTML, zero JavaScript, zero context switching**.  All your logic, all your UI — in the language you love. 
 
