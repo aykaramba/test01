@@ -14,20 +14,23 @@ We need to document the minimal set of governance information so that users know
 </style>
 
 
+## CLOG
 
-## CLOG QUESTIONS
+### Questions and Discussions 
 
 **I have a question about CLOG, where can I ask?**
 
 :fontawesome-brands-github:{ .icon } Our discussion forums are here: [https://github.com/rabbibotton/clog/discussions](https://github.com/rabbibotton/clog/discussions){:target="_blank"} 
 
-## CLOG BUG REPORTING
+### Bug Reports
 
 **I found a bug in CLOG, where do I submit it?**
 
 :fontawesome-brands-github:{ .icon } Our issue tracker here: [https://github.com/rabbibotton/clog/issues](https://github.com/rabbibotton/clog/issues){:target="_blank"} 
 
-## DOCUMENTATION QUESTION
+## The CLOG Documentation Project
+
+### Questions and Discussions
 
 !!! warning
     Rabbi, we need a discussion forum for the documentation project. I recommend that we do the weird thing and put on the main CLOG repository because documentation needs to be part of the ongoing CLOG discussions in the community.  Everyone will expect to have it in the documentation project but I think keeping all discussions in one location makes a lot more sense. What do you think?
@@ -36,7 +39,7 @@ We need to document the minimal set of governance information so that users know
 
 :fontawesome-brands-github:{ .icon } Our issue tracker here: **???**
 
-## DOCUMENTATION BUG REPORT
+### Bug Reports 
 
 **I found a bug in the documentation, where do I report it?**
 
