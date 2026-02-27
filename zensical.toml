@@ -53,9 +53,14 @@ Copyright &copy; 2026 David Botton
 # The CLOG Navigation ---> Edit Here
 # ----------------------------------------------------------------------------
 nav = [
+
   {"Home" = "index.md"},
+
   {"Manual" = [
      "manual/index.md",
+     { "Overview" = [
+        { "Technical Overview" = "manual/overview/technical-overview.md" },
+      ]},
      { "Getting Started" = [
         { "Setup Common Lisp" = "manual/getting-started/setup-common-lisp.md" },
         { "Your Dev Environment" = "manual/getting-started/your-dev-environment.md" },
@@ -78,23 +83,130 @@ nav = [
         { "Mobile Applications" = "manual/clog-app-delivery/mobile-applications.md" },
         { "Embedded Devices" = "manual/clog-app-delivery/embedded-devices.md" },
       ]},
+     { "JavaScript" = [
+        { "Wrapping a JS Plugin" = "manual/javascript/wrapping-a-js-plugin.md" },
+      ]},
      { "Security and CLOG" = [
         { "Security Concepts" = "manual/security-and-clog/security-concepts.md" },
       ]},
+     { "Reference Manual" = [
+        { "CLOG Reference Manual" = "manual/clog-reference-manual/clog-reference-manual.md" },
+      ]},
   ]},
-  {"Examples and Tutorials" = [
-     { "Examples and Tutorials" = "examples-and-tutorials/index.md" },
-     { "Links and Resources" = "examples-and-tutorials/links-and-resources.md" },
+
+  {"Tutorials" = [
+     "tutorials/index.md",
+     { "Common Lisp Tutorials" = [
+	{ "Introduction" = "tutorials/common-lisp-tutorials/introduction.md" },
+	{ "01 The Journey" = "tutorials/common-lisp-tutorials/01-the-journey.md" },
+	{ "02 Symbols " = "tutorials/common-lisp-tutorials/02-not-in-kansas-anymore-symbols.md" },
+	{ "03 Packages and Systems" = "tutorials/common-lisp-tutorials/03-evolution-packages-and-systems.md" },
+	{ "04 Functions" = "tutorials/common-lisp-tutorials/04-inconceivable-functions.md" },
+	{ "05 Control " = "tutorials/common-lisp-tutorials/05-lisp-loves-donuts-control.md" },
+	{ "06 Globals and Lists" = "tutorials/common-lisp-tutorials/06-wax-on-wax-off-globals-and-lists.md" },
+	{ "07 Closures, Loops and Strings" = "tutorials/common-lisp-tutorials/07-spin-me-right-round-closures-loops-and-strings.md" },
+	{ "08 Arrays" = "tutorials/common-lisp-tutorials/08-only-a-mom-could-love-format-and-loop.md" },
+	{ "09 Format and Loop" = "tutorials/common-lisp-tutorials/09-i-want-a-new-drug-hash-and-arrays.md" },
+	{ "10 Mapping functions" = "tutorials/common-lisp-tutorials/10-following-mapping-functions.md" },
+	{ "11 Structs and CLOS" = "tutorials/common-lisp-tutorials/11-build-me-up-structs-and-clos.md" },
+	{ "12 Macros " = "tutorials/common-lisp-tutorials/12-expand-your-mind-macros.md" },
+	{ "13 Exceptions/Conditions" = "tutorials/common-lisp-tutorials/13-yall-come-back-now-exceptions-conditions.md" },
+	{ "14 Concurrency and Parallelism" = "tutorials/common-lisp-tutorials/14-kindergarten-concurrent-and-parallel-programing.md" },
+	{ "15 A Real GUI App" = "tutorials/common-lisp-tutorials/15-pulling-it-all-togeher-With-a-real-gui-app-clos-encounters-game.md" },
+	]},
+     { "CLOG Video Series" = [
+	{ "Introduction" = "tutorials/clog-video-series/introduction.md" },
+	{ "CLOG Builder" = "tutorials/clog-video-series/clog-builder-master-classes.md" },
+	{ "CLOG Create a pro-app" = "tutorials/clog-video-series/clog-plunger-video-series-use-clog-builder-to-create-a-pro-app.md" },
+	{ "CLOG Tips" = "tutorials/clog-video-series/clog-extra-learn-tips-on-using-clog.md" },
+	{ "Common Lisp The Language 2ed Book Course" = "tutorials/clog-video-series/common-lisp-the-language-2ed-book-course.md" },
+	]},
+     { "CLOG Builder Tutorials (Reddit links)" = [
+	{ "Introduction" = "tutorials/clog-builder-tutorials/introduction.md" },
+	{ "01 - Chat App" = "tutorials/clog-builder-tutorials/01-chat-app.md" },                                                    
+	{ "02 - Building a Web Page" = "tutorials/clog-builder-tutorials/02-building-a-web-page.md" },
+	{ "03 - Importing HTML" = "tutorials/clog-builder-tutorials/03-importing-html-in-to-builder.md" },
+	{ "04 - CLOS Contact App" = "tutorials/clog-builder-tutorials/04-clos-contact-database-controls-a-complete-application.md" },
+	{ "05 - Using Controls" = "tutorials/clog-builder-tutorials/05-using-and-creating-controls.md" },
+	]},
   ]},
+
+  {"Examples and Demos" = [
+     "examples-and-demos/index.md",
+     { "CLOG Demos" = [
+	{ "Introduction" = "examples-and-demos/clog-demos/introduction.md" },
+	{ "01-demo.lisp" = "examples-and-demos/clog-demos/01-demo.lisp-sparkey-the-snake-game.md" },
+	{ "02-demo.lisp" = "examples-and-demos/clog-demos/02-demo.lisp-chat-private-instant-messenger.md" },
+	{ "03-demo.lisp" = "examples-and-demos/clog-demos/03-demo.lisp-ide-a-very-simple-common-lisp-ide.md" },
+	{ "04-demo.lisp" = "examples-and-demos/clog-demos/04-demo.lisp-cms-website-a-very-simple-database-driven-website.md" },
+	{ "05-clos-encounters" = "examples-and-demos/clog-demos/05-clos-encounters-full-project-game.md" },
+	{ "06-clos-contact" = "examples-and-demos/clog-demos/06-clos-contact-full-project-business-app.md" },
+	]},
+     { "CLOG Code Examples" = [
+	{ "Introduction" = "examples-and-demos/clog-code-examples/introduction.md" },
+	{ "01 Tutorial" = "examples-and-demos/clog-code-examples/01-tutorial.md" },
+	{ "02 Tutorial" = "examples-and-demos/clog-code-examples/02-tutorial.md" },
+	{ "03 Tutorial" = "examples-and-demos/clog-code-examples/03-tutorial.md" },
+	{ "04 Tutorial" = "examples-and-demos/clog-code-examples/04-tutorial.md" },
+	{ "05 Tutorial" = "examples-and-demos/clog-code-examples/05-tutorial.md" },
+	{ "06 Tutorial" = "examples-and-demos/clog-code-examples/06-tutorial.md" },
+	{ "07 Tutorial" = "examples-and-demos/clog-code-examples/07-tutorial.md" },
+	{ "08 Tutorial" = "examples-and-demos/clog-code-examples/08-tutorial.md" },
+	{ "09 Tutorial" = "examples-and-demos/clog-code-examples/09-tutorial.md" },
+	{ "10 Tutorial" = "examples-and-demos/clog-code-examples/10-tutorial.md" },
+	{ "11 Tutorial" = "examples-and-demos/clog-code-examples/11-tutorial.md" },
+	{ "12 Tutorial" = "examples-and-demos/clog-code-examples/12-tutorial.md" },
+	{ "13 Tutorial" = "examples-and-demos/clog-code-examples/13-tutorial.md" },
+	{ "14 Tutorial" = "examples-and-demos/clog-code-examples/14-tutorial.md" },
+	{ "15 Tutorial" = "examples-and-demos/clog-code-examples/15-tutorial.md" },
+	{ "16 Tutorial" = "examples-and-demos/clog-code-examples/16-tutorial.md" },
+	{ "17 Tutorial" = "examples-and-demos/clog-code-examples/17-tutorial.md" },
+	{ "18 Tutorial" = "examples-and-demos/clog-code-examples/18-tutorial.md" },
+	{ "19 Tutorial" = "examples-and-demos/clog-code-examples/19-tutorial.md" },
+	{ "20 Tutorial" = "examples-and-demos/clog-code-examples/20-tutorial.md" },
+	{ "21 Tutorial" = "examples-and-demos/clog-code-examples/21-tutorial.md" },
+	{ "22 Tutorial" = "examples-and-demos/clog-code-examples/22-tutorial.md" },
+	{ "23 Tutorial" = "examples-and-demos/clog-code-examples/23-tutorial.md" },
+	{ "24 Tutorial" = "examples-and-demos/clog-code-examples/24-tutorial.md" },
+	{ "25 Tutorial" = "examples-and-demos/clog-code-examples/25-tutorial.md" },
+	{ "26 Tutorial" = "examples-and-demos/clog-code-examples/26-tutorial.md" },
+	{ "27 Tutorial" = "examples-and-demos/clog-code-examples/27-tutorial.md" },
+	{ "28 Tutorial" = "examples-and-demos/clog-code-examples/28-tutorial.md" },
+	{ "29 Tutorial" = "examples-and-demos/clog-code-examples/29-tutorial.md" },
+	{ "30 Tutorial" = "examples-and-demos/clog-code-examples/30-tutorial.md" },
+	{ "31 Tutorial" = "examples-and-demos/clog-code-examples/31-tutorial.md" },
+	{ "32 Tutorial" = "examples-and-demos/clog-code-examples/32-tutorial.md" },
+	{ "33 Tutorial" = "examples-and-demos/clog-code-examples/33-tutorial.md" },
+	{ "34 Tutorial" = "examples-and-demos/clog-code-examples/34-tutorial.md" },
+	{ "35 Tutorial" = "examples-and-demos/clog-code-examples/35-tutorial.md" },
+	]},
+     { "Apps Built by the Community" = [
+     	{ "Example Apps" = "examples-and-demos/apps-built-by-the-community/example-apps.md" },
+	]},
+  ]},
+
   {"Roadmap" = [
      { "Roadmap" = "roadmap/index.md" },
   ]},
-  {"Team Collaboration" = [
-     "team-collaboration/index.md",
-     { "How to Contribute" = "team-collaboration/how-to-contribute.md" },
-     { "Markdown Examples" = "team-collaboration/markdown-examples.md"},
-     { "Markdown in 5min" = "team-collaboration/markdown-in-5min.md" },
-  ]}
+
+  {"Resources" = [
+     "resources/index.md",
+     { "Issues" = [
+	{ "Tickets and Forums" = "resources/issues/tickets-and-forums.md" },
+	]},
+     { "Documentation Project" = [
+	{ "Overview" = "resources/documentation-project/overview.md" },
+	{ "Markdown Examples" = "resources/documentation-project/markdown-examples.md"},
+	{ "Markdown in 5min" = "resources/documentation-project/markdown-in-5min.md" },	
+	{ "Setup Zensical" = "resources/documentation-project/setup-zensical.md" },	
+	{ "Zensical Manual" = "resources/documentation-project/zensical-manual.md" },	
+	]},
+     { "Other Resources" = [
+	{ "External Resources" = "resources/other-resources/external-resources.md" },
+	{ "From Reddit" = "resources/other-resources/from-reddit.md" },
+	]},
+     ]},
+
 ]
 
 
@@ -223,7 +335,7 @@ features = [
     # Turn on this feature to expand all collapsible sections in the
     # navigation sidebar by default.
     # https://zensical.org/docs/setup/navigation/#navigation-expansion
-    # "navigation.expand",
+    #"navigation.expand",
 
     # This feature turns on navigation elements in the footer that allow the
     # user to navigate to a next or previous page.
@@ -274,7 +386,7 @@ features = [
     # When sticky tabs are enabled, navigation tabs will lock below the header
     # and always remain visible when scrolling down.
     # https://zensical.org/docs/setup/navigation/#sticky-navigation-tabs
-    #"navigation.tabs.sticky",
+    "navigation.tabs.sticky",
 
     # A back-to-top button can be shown when the user, after scrolling down,
     # starts to scroll up again.
