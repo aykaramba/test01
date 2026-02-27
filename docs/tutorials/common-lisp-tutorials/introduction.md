@@ -2,6 +2,11 @@
 icon: lucide/book-alert
 ---
 
+!!! info
+
+    This is a placeholder. This page is under development.
+
+
 COMMON LISP "The Tutorial" Series
 
 "The Tutorial"'s goal is to get you writing real Lisp programs, quickly

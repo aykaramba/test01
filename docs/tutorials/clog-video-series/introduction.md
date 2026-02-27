@@ -2,6 +2,11 @@
 icon: lucide/book-alert
 ---
 
+!!! info
+
+    This is a placeholder. This page is under development.
+
+
 !!! success
 
     Keep this here.
